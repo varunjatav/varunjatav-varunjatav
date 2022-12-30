@@ -1,35 +1,51 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
+// import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {Route,Routes,Link} from "react-router-dom";
-import { About } from '../Pages/about';
-import { Contact } from '../Pages/contact';
-import { Home } from '../Pages/home';
+
+import './Navbar.css';
 
 
 function NavbarPort() {
   return (
     <>
-    <Navbar bg="light" expand="lg" >
-      <Container>
-        <Navbar.Brand >PORTFOLIO</Navbar.Brand>
+    <Navbar bg='dark' expand="lg" style={{position:"fixed",width:"100%"}} >
+      <Container >
+        {/* <img src={myPic} alt="..myPic" style={{width:"40px", borderRadius:"50%",marginRight:"30px"}}/> */}
+        <Navbar.Brand className='white' style={{color:"whitesmoke"}}  >PORTFOLIO</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav >
-            <Nav.Link  as={Link} to="/">Home</Nav.Link>
-            <Nav.Link   as={Link} to="/about">About</Nav.Link>
-            <Nav.Link   as={Link} to="/contact">Contact</Nav.Link>
-          </Nav>
+          {/* <Nav > */}
+           <div style={{display:"flex",justifyContent:"space-between",gap:"50px",marginLeft:"400px"}}>
+           
+           <a href="#home"style={{color:"whitesmoke",textDecoration:"none"}}> Home</a>
+          
+           
+           <a href="#about" style={{color:"whitesmoke",textDecoration:"none"}}>About</a>
+          
+            
+              
+              <a href="#contact"style={{color:"whitesmoke",textDecoration:"none"}}> Contact</a>
+             
+              
+              <a href="#project"style={{color:"whitesmoke",textDecoration:"none"}}> Project</a>
+             
+             
+             <a href="#skill"style={{color:"whitesmoke",textDecoration:"none"}}> Skills</a>
+            
+              
+           </div>
+            
+                       
+{/* element.style {
+    display: flex;
+    justify-content: flex-end;
+            */}
+          {/* </Nav> */}
         </Navbar.Collapse >
+     
       </Container>
     </Navbar>
-      <div>
-        <Routes>
-            <Route path='/about' element={<About/>} />
-            <Route path='/contact' element={<Contact/>} />
-            <Route path='/' element={<Home/>} />
-        </Routes>
-      </div>
+     
   </>
   );
 }
