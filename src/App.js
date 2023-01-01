@@ -1,37 +1,25 @@
 import React from "react";
-
-
-import "./App.css";
-// import { Allroutes } from "./Components/Allroutes";
-import NavbarPort from "./Components/Navbar";
+import { Routes, Route } from "react-router-dom";
+import "./index.css";
+import { Home } from "./Pages/home";
 import { About } from "./Pages/about";
 import { Contact } from "./Pages/contact";
-import { Home } from "./Pages/home";
 import { Project } from "./Pages/project";
 import { Skill } from "./Pages/skill";
+import { Resume } from "./Pages/resume";
 
 function App() {
   return (
-    <div className="App">
-      <NavbarPort/>
-     
-      <div id="contact">
-      <Home />
-      </div>
-      <div id="about">
-      <About />
-      </div>
-      <div id="contact">
-      <Contact />
-      </div>
-      <div id="project">
-      <Project />
-      </div>
-      <div id="skill">
-      <Skill />
-      </div>
-      {/* <Allroutes/> */}
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projct" element={<Project />} />
+        <Route path="/skills" element={<Skill />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+    </>
   );
 }
 

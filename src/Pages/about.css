@@ -1,0 +1,75 @@
+.aboutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    width: 80%;
+    margin: auto; 
+   padding: 100px 0 100px 0;
+}
+.aboutMe{
+    text-align: left;
+}
+.aboutMe h5{
+  font-family:  'Lucida Console', Courier New, monospace;
+  color: wheat;
+  font-size: 22px;
+}
+.aboutMe h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: white;
+}
+.myImg{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.myImg img{
+    width: 80%;
+    border-radius: 100%;
+   
+    
+}
+@media screen and (max-width: 1100px) {
+    
+    .aboutMe h5{
+        font-size: 18px;
+    }
+    .aboutMe h1{
+        font-size: 25px;
+    }
+    .myImg{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .myImg img{
+        width: 59%;
+        
+    }
+}
+@media screen and (max-width: 640px) {
+    .aboutContainer{
+       display: grid;
+       grid-template-rows: repeat(2,1fr);
+    }
+    .aboutMe h5{
+        font-size: 18px;
+    }
+    .aboutMe h1{
+        font-size: 25px;
+    }
+    .myImg{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .myImg img{
+        width: 59%;
+        
+    }
+}
+/* style={{ fontFamily: "Lucida Console, Courier New, monospace",color:"wheat"}} */
+
+/* style={{width:"400px" , borderRadius:"100%"}} */
