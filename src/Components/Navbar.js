@@ -29,21 +29,21 @@ const NavbarPort = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <a href="#about">About</a>
         </li>
         <li>
           <Link to="/skill">Skills</Link>
          
         </li>
         <li>
-          <Link to="/project">Project</Link>
+          <a href="#project">Project</a>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <a href="#footer">Contact</a>
         </li>
-        <li>
+        {/* <li>
           <Link to="resume">Resume</Link>
-        </li>
+        </li> */}
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (

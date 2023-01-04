@@ -1,15 +1,26 @@
 import React from 'react'
-import { Footer } from '../Components/Footer'
+import  Footer  from '../Components/Footer'
 import NavbarPort from '../Components/Navbar'
-import { About } from './about'
+import  About from './about'
+import Project from './project'
 
 
-export const Home = () => {
+ const Home = () => {
   return (
     <div>
       <NavbarPort/>
+      <div id="about">
       <About/>
+      </div>
+      <div id="project">
+      <Project/>
+      </div>
+      
+      <div id="footer">
       <Footer/>
+      </div>
+      
     </div>
   )
 }
+export default Home;

@@ -5,7 +5,7 @@
     margin-top: 300px;
     width: 80%;
     margin: auto; 
-   padding: 100px 0 100px 0;
+    padding: 150px 0 100px 0;
 }
 .aboutMe{
     text-align: left;
@@ -15,18 +15,24 @@
   color: wheat;
   font-size: 22px;
 }
+.aboutMe h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: white;
+}
 .aboutMe h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 32px;
+    font-size: 25px;
     color: white;
 }
 .myImg{
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding-right: 100px;
 }
 .myImg img{
-    width: 400px;
+    width: 300px;
     border-radius: 100%;
    
     
@@ -70,6 +76,3 @@
         
     }
 }
-/* style={{ fontFamily: "Lucida Console, Courier New, monospace",color:"wheat"}} */
-
-/* style={{width:"400px" , borderRadius:"100%"}} */

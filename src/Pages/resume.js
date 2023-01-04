@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const Resume = () => {
+
+ const Resume = () => {
   return (
-    <div>R</div>
+    <div>
+     
+    </div>
   )
 }
+export default Resume
