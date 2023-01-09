@@ -1,6 +1,7 @@
 import React from 'react'
 import Project1 from '../Project1'
 import Project2 from '../Project2'
+import Project3 from '../Project3'
 import './project.css'
  const Project = () => {
   return (
@@ -39,17 +40,15 @@ import './project.css'
       </div>
       <div className='project'>
         <div className='projectImg'>
-           <img src={Project1} alt="thirdProject"  />
+           <img src={Project3} alt="thirdProject"  />
         </div>
         <div className='projectDescription'>
-        <h1>Kindmeal.my</h1>
-          <p>KindMeal attempts this by closely working with restaurants and
-              cafes to offer attractive meat-free deals and cozy dining
-              environments.</p>
+        <h1>Hindustan Times.com</h1>
+          <p>Hindustan Times is an Indian English-language daily newspaper based in Delhi. It is the flagship publication of HT Media, an entity controlled by the KK Birla family, and is owned by Shobhana Bhartia. Hindustan Times. First Voice</p>
           <h1>Tech Stack</h1>
-          <p>React.js | Chakra ui | React Bootstrap</p>
-        <button className='btn'>Github</button>
-       <button className='btn'>Netlify</button>
+          <p>HTML | CSS | Javascript</p>
+      <a href="https://github.com/Sahil9214/Utkarshfw20_1149-intersting-fork-8458"><button className='btn'>Github</button></a>  
+      <a href="https://resilient-frangipane-30ed56.netlify.app"><button className='btn'>Netlify</button></a> 
         </div>
         
       </div>

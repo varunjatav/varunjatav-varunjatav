@@ -25,8 +25,8 @@ import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "
              </div>
         </div>
         <div className="right">
-                <h4>About Me</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia optio sapiente libero quo quod! Illum doloremque molestias voluptatibus mollitia perferendis voluptates expedita? Expedita maxime non obcaecati, quaerat unde reiciendis sequi.</p>
+                {/* <h4>About Me</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia optio sapiente libero quo quod! Illum doloremque molestias voluptatibus mollitia perferendis voluptates expedita? Expedita maxime non obcaecati, quaerat unde reiciendis sequi.</p> */}
             <div className="social">
            <FaFacebook size={30} style={{marginRight:"1rem",color:"white"}}/>
            <FaTwitter size={30} style={{marginRight:"1rem",color:"white"}}/>

@@ -32,12 +32,13 @@ const NavbarPort = () => {
           <a href="#about">About</a>
         </li>
         <li>
-          <Link to="/skill">Skills</Link>
-         
-        </li>
-        <li>
           <a href="#project">Project</a>
         </li>
+        <li>
+          <a href="#skills">Skills</a>
+         
+        </li>
+       
         <li>
           <a href="#footer">Contact</a>
         </li>
