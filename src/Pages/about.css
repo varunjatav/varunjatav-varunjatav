@@ -10,14 +10,14 @@
 .aboutMe{
     text-align: left;
 }
-.aboutMe h5{
+.aboutMe p{
   font-family:  'Lucida Console', Courier New, monospace;
   color: wheat;
-  font-size: 22px;
+  
 }
-.aboutMe h2{
+.aboutMe h3{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 28px;
+    font-size: 24px;
     color: white;
 }
 .aboutMe h1{

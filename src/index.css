@@ -12,11 +12,13 @@ body {
 }
 
 
-h1, h4, p, a {
+h1,h2, h4, p, a {
   color: rgb(245, 248, 252);
   text-decoration: none;
 }
-
+p{
+  font-size: 8px;
+}
 ul {
   list-style-type: none;
 }

@@ -15,9 +15,9 @@ import './about.css'
         <img src={myPic} alt="myPic"  />
       </div>
       <div className='aboutMe' >
-        <h2 > Hii</h2>
-        <h2 > I am</h2>
-        <h1><TypeAnimation
+        <h3 > Hii</h3>
+        <h3 > I am</h3>
+        <h2><TypeAnimation
       sequence={[
       
        
@@ -33,9 +33,9 @@ import './about.css'
       cursor={true}
       repeat={Infinity}
       style={{ fontFamily: 'Times New Roman, Times, serif', fontSize: '40px' }}
-    /></h1>
+    /></h2>
         
-        <h5 >A Full Stack Web Developer having 1200+ hours of coding experience. Worked on different projects using Javascript as well as react and looking forward to work more on projects and gain more experince. </h5>
+        <p >A passionate aspiring Full Stack Developer skilled in MERN stack. Strong in design and integration with intuitive problem-solving skills. Proficient in HTML, CSS, JavaScript, React, and Redux. Ability to translate business requirements into technical solutions.Looking forward to making a significant contribution to an organization through dedicated effort.</p>
       </div>
       
     </div>
