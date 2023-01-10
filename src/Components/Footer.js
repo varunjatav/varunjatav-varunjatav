@@ -5,6 +5,7 @@ import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "
  const Footer = () => {
   return (
     <div className="footer">
+              <h1>Contact Me</h1>
         <div className="footer-container">
              <div className="left">
                 <div className="location">

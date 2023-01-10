@@ -5,8 +5,12 @@
     padding: 0;
 }
 
-.main{
+.mainSkill{
     text-align: center;
+}
+.mainSkill h1 {
+    font-size: 3rem;
+    color:coral;
 }
 .skillContainer{
     display: grid;
@@ -23,6 +27,9 @@
     .skillContainer{
       display: grid;
       grid-template-columns: repeat(3,1fr);
+    }
+    .mainSkill h1{
+        font-size: 35px;
     }
 }
 @media screen and (max-width:650px){

@@ -1,0 +1,19 @@
+/* margin:"auto",color:"white",justifyContent:"center",alignItems:"center",textAlign:"center",display:"flex" */
+.container{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.calender{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width:850px) {
+    .calender{
+        block-size: 8;
+    }
+}

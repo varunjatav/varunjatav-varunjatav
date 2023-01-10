@@ -1,0 +1,51 @@
+.Information_div{
+    display: flex;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    width: 100%;
+    margin: auto; 
+    padding: 150px 0 100px 0;
+}
+.Information_div h3{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.Information_div h1{
+    color: #fff;
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.typeAnime{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.nameContainer{
+    width: 50vw;
+}
+
+@media screen and (max-width:1000px){
+    .Information_div h1{
+        font-size: 3rem;
+        
+    }
+    .typeAnime{
+        font-size: 2rem;
+        
+    }
+}
+@media screen and (max-width:600px){
+    .Information_div h1{
+        font-size: 35px;
+        
+    }
+    .typeAnime{
+        font-size: 30px;
+        
+    }
+}

@@ -2,6 +2,13 @@
     width: 100%;
     padding:  6rem 0;
     background-color: rgb(26, 24, 24);
+   
+}
+.footer h1{
+    text-align: center;
+    font-size: 3rem;
+    color: coral;
+    margin-bottom: 45px;
 }
 .footer-container{
     max-width: 1140px;
@@ -42,6 +49,12 @@ h4{
 }
 p{
     font-size: 1.2rem;
+}
+@media screen and (max-width: 1000px) {
+    .footer h1{
+        font-size: 35px;
+    }
+    
 }
 
 @media screen and (max-width: 640px) {

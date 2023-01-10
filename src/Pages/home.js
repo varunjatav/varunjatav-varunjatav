@@ -5,12 +5,20 @@ import  About from './about'
 import Calender from './githubClender'
 import Project from './project'
 import Skill from './skill'
-
+import './home.css'
+import HomeInfo from './homeInfo'
+import Stats from './stats'
 
  const Home = () => {
   return (
-    <div>
+    <div className='main'>
+      <div>
       <NavbarPort/>
+      </div>
+     
+      <div id='home'>
+        <HomeInfo/>
+      </div>
       <div id="about">
       <About/>
       </div>
@@ -20,6 +28,7 @@ import Skill from './skill'
       
       <div id='#calender'>
        <Calender/>
+       <Stats/>
       </div>
       <div id="project">
       <Project/>

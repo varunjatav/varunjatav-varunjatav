@@ -1,0 +1,8 @@
+.main{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqNTHqIauynM1MMwy35cw830VUKAg1Wdzbg&usqp=CAU');
+}
+@media screen and (max-width:500px){
+    .main{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqNTHqIauynM1MMwy35cw830VUKAg1Wdzbg&usqp=CAU');
+    }
+}
