@@ -4,3 +4,16 @@
     justify-content: center;
    margin-bottom: 100px;
 }
+
+@media screen and (max-width:800px){
+    .stataDiv img{
+        width: 400px ;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .stataDiv img{
+        width: 300px ;
+    }
+}

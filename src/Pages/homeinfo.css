@@ -27,6 +27,7 @@
 }
 .nameContainer{
     width: 50vw;
+    height: 50vw;
 }
 
 @media screen and (max-width:1000px){
@@ -46,6 +47,19 @@
     }
     .typeAnime{
         font-size: 30px;
+        
+    }
+}
+@media screen and (max-width:500px){
+    .Information_div h3{
+        font-size: 22px;
+    }
+    .Information_div h1{
+        font-size: 28px;
+        
+    }
+    .typeAnime{
+        font-size: 22px;
         
     }
 }

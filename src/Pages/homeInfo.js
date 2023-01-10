@@ -6,7 +6,7 @@ import './homeinfo.css'
     <div className='Information_div'>
         <div className='nameContainer' >
         <h3 > Hii</h3>
-         <h3 > I am</h3>
+         <h3 >I am</h3>
          <h1>VARUN JATAV</h1>
          <h2>
          <TypeAnimation

@@ -70,9 +70,10 @@
         justify-content: center;
         align-items: center;
         margin: auto;
+        padding-right: 0;
     }
     .myImg img{
-        width: 59%;
+        width: 180px;
         
     }
 }
