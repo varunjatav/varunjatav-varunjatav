@@ -59,7 +59,8 @@ p{
 
 @media screen and (max-width: 640px) {
     .footer{
-        width: 100%;
+       right: 0;
+       left: 0;
     }
     .footer-container{
         grid-template-columns: 1fr;

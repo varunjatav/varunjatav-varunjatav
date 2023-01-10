@@ -25,22 +25,22 @@ const NavbarPort = () => {
         <h1>Portfolio</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li>
+        <li onClick={handleClick}>
           <a href="#home">Home</a>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <a href="#about">About</a>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <a href="#skills">Skills</a>
          
         </li>
-        <li>
+        <li onClick={handleClick}>
           <a href="#project">Project</a>
         </li>
        
        
-        <li>
+        <li onClick={handleClick}>
           <a href="#footer">Contact</a>
         </li>
         {/* <li>
