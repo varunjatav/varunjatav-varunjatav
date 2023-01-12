@@ -42,6 +42,9 @@
 .projectImg img{
     width: 100%;
 }
+.projectDescription{
+    padding: 10px 0 10px 0;
+}
 .projectDescription h2{
     font-size: 22px;
 }

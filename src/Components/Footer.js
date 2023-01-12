@@ -1,7 +1,7 @@
 import "./Footer.css"
 import React from 'react'
 
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa"
+import {  FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa"
  const Footer = () => {
   return (
     <div className="footer">
@@ -20,8 +20,8 @@ import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "
                 +91 6392859129</h4>  
             </div>
              <div className="email">
-                  <h4> <FaMailBulk size={20} style={{marginRight:"2rem"}}/>
-                 Mohit.Mohit979@gmail.com</h4>
+               <a href="https://mohit.mohit979@gmail.com">   <h4> <FaMailBulk size={20} style={{marginRight:"2rem"}}/>
+                 Mohit.Mohit979@gmail.com</h4></a>
                
              </div>
         </div>
@@ -29,9 +29,9 @@ import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "
                 {/* <h4>About Me</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia optio sapiente libero quo quod! Illum doloremque molestias voluptatibus mollitia perferendis voluptates expedita? Expedita maxime non obcaecati, quaerat unde reiciendis sequi.</p> */}
             <div className="social">
-           <FaFacebook size={30} style={{marginRight:"1rem",color:"white"}}/>
+          <a href="https://github.com/Varun-98-masai"> <FaGithub size={30} style={{marginRight:"1rem",color:"white"}}/></a>
            <FaTwitter size={30} style={{marginRight:"1rem",color:"white"}}/>
-           <FaLinkedin size={30} style={{marginRight:"1rem",color:"white"}}/>
+         <a href="https://www.linkedin.com/in/varun-jatav-98ba16226/"><FaLinkedin size={30} style={{marginRight:"1rem",color:"white"}}/></a>  
              </div>
     </div>
     </div>

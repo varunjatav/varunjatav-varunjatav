@@ -3,7 +3,8 @@ import "./Navbar.css";
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes} from 'react-icons/fa';
+import Resume from "../Downloads/Varun_Jatav_Resume.pdf";
 
 const NavbarPort = () => {
   const [click, setClick] = useState(false);
@@ -43,9 +44,10 @@ const NavbarPort = () => {
         <li onClick={handleClick}>
           <a href="#footer">Contact</a>
         </li>
-        {/* <li>
-          <Link to="resume">Resume</Link>
-        </li> */}
+        <li>
+        <a href={Resume} download>Resume</a>
+        </li>
+         
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (

@@ -20,12 +20,13 @@ import './project.css'
             easier, fun, and more</p>
           <h2>Tech Stack</h2>
           <p>HTML | CSS | Javascript</p>
-          <div className='btnContainer'>
+          
+         
+        </div>
+        <div className='btnContainer'>
           <a href="https://github.com/piyush-agrawal6/NiftyPM-clone"><button className='btn'>Github</button></a> 
          <a href="http://nifty-pm.netlify.app/"><button className='btn'>Netlify</button></a> 
           </div>
-         
-        </div>
       </div>
 
       <div className='project'>
@@ -39,13 +40,13 @@ import './project.css'
               environments.</p>
           <h2>Tech Stack</h2>
           <p>React.js | Chakra ui | React Bootstrap</p>
-          <div className='btnContainer'>
+        
+       
+        </div>
+        <div className='btnContainer'>
           <a href="https://github.com/Varun-98-masai/RCT-101-kindmeal.my/tree/day-01"><button className='btn'>Github</button></a> 
           <a href="https://glittering-lamington-f3f69e.netlify.app/"><button className='btn'>Netlify</button></a> 
           </div>
-       
-        </div>
-        
       </div>
       <div className='project'>
         <div className='projectImg'>
@@ -56,13 +57,13 @@ import './project.css'
           <p>Hindustan Times is an Indian English-language daily newspaper based in Delhi. It is the flagship publication of HT Media, an entity controlled by the KK Birla family, and is owned by Shobhana Bhartia. Hindustan Times. First Voice</p>
           <h2>Tech Stack</h2>
           <p>HTML | CSS | Javascript</p>
-          <div className='btnContainer'>
+         
+     
+        </div>
+        <div className='btnContainer'>
           <a href="https://github.com/Sahil9214/Utkarshfw20_1149-intersting-fork-8458"><button className='btn'>Github</button></a>  
           <a href="https://resilient-frangipane-30ed56.netlify.app"><button className='btn'>Netlify</button></a> 
           </div>
-     
-        </div>
-        
       </div>
      </div>
    </div>
