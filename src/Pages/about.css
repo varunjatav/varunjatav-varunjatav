@@ -1,19 +1,22 @@
+
+
 .aboutContainer{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 300px;
-    width: 80%;
+    width: 100%;
     margin: auto; 
     padding: 0 0 100px 0;
 }
 .aboutMe{
     text-align: left;
+    width: 100%;
 }
 .aboutMe p{
   font-family:  'Lucida Console', Courier New, monospace;
   color: wheat;
-  
+  padding: 10px;
 }
 .aboutMe h3{
     font-family: 'Times New Roman', Times, serif;
@@ -24,6 +27,7 @@
     font-size: 3rem;
     color: coral;
     margin-bottom: 45px;
+    text-align: center;
 }
 .myImg{
     justify-content: center;

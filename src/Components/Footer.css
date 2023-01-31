@@ -75,7 +75,7 @@ html {
     .footer{
        right: 0;
        left: 0;
-       width:480px;
+       width:100%;
     }
     .footer-container{
         grid-template-columns: 1fr;

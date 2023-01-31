@@ -38,10 +38,10 @@ import Redux from '../skillsImages/Redux.png'
        </div>
 
        <div className='logo'>
-       <img src={nodejs} alt="nodeJS.png" style={{width:"200px"}}/>
+       <img src={nodejs} alt="nodeJS.png" className='nodeJSimg' />
        </div>
         <div className='logo'>
-        <img src={expressjs} alt="expressjs.png" style={{width:"200px"}}/>
+        <img src={expressjs} alt="expressjs.png" className='nodeJSimg' />
         </div>
        
        <div className='logo'>
