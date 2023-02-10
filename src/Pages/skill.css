@@ -11,6 +11,8 @@
 .mainSkill h1 {
     font-size: 3rem;
     color:coral;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
 }
 .skillContainer{
     display: grid;
@@ -18,10 +20,19 @@
 }
 .logo {
     margin: auto;
-    padding: 10%;
+    /* padding: 10px; */
+    box-shadow:coral 0px 8px 24px;
+    height: 150px ;
+    width: 200px;
+    margin-bottom: 20px;
 }
-.nodeJSimg{
-    width:200px
+.otherSkillImg{
+   padding: 5%;
+    width: 60%;
+}
+.nodeImg{
+    padding: 5%;
+    width: 100%;
 }
 
 @media screen and (max-width:1000px){
@@ -32,8 +43,22 @@
     .mainSkill h1{
         font-size: 35px;
     }
-    .nodeJSimg{
-        width:200px
+  
+    .logo {
+        margin: auto;
+        /* padding: 10px; */
+        border: 1px solid rgb(255, 80, 118);
+        height: 100px ;
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    .otherSkillImg{
+         padding: 5%;
+         width: 60%;
+     }
+     .nodeImg{
+        padding: 5%;
+        width: 100%;
     }
 }
 @media screen and (max-width:650px){
@@ -46,8 +71,6 @@
       
     }
         
-    .nodeJSimg{
-        width:100px
-    }
+ 
     
 }

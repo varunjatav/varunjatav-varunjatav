@@ -15,7 +15,7 @@
 }
 .aboutMe p{
   font-family:  'Lucida Console', Courier New, monospace;
-  color: wheat;
+  color: white;
   padding: 10px;
 }
 .aboutMe h3{
@@ -28,6 +28,8 @@
     color: coral;
     margin-bottom: 45px;
     text-align: center;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
 }
 .myImg{
     justify-content: center;

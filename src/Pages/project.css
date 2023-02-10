@@ -1,4 +1,4 @@
-.projectContainer{
+/* .projectContainer{
  width: 80%;
  display: grid;
  grid-template-columns: repeat(2,1fr);
@@ -26,7 +26,7 @@
 }
 /* style={{width:"80%",display:"grid",gridTemplateColumns:"rep
     eat(2,1fr)",justifyContent:"center",margin:"auto",alignItems:"center",textAlign:"center",marginBottom:"100px"}} */
-.project{
+/* .project{
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -51,6 +51,7 @@
 .projectDescription p{
     font-size: 15px;
 }
+
 @media  screen and (max-width: 1000px) {
     .mainProject h1{
         font-size: 35px;
@@ -75,4 +76,61 @@
       .btn{
         font-size: 10px;
       }
+      .card{
+         display: flex;
+         flex-direction: row;
+         
+      }
+} */ 
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img{
+    width: 50%;
+}
+.head{
+    font-size: 2.2rem;
+    font-weight: 200;
+}
+.txt{
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+.projectHead{
+    text-align: center;
+    font-size: 3rem;
+    color: coral;
+    margin-bottom: 45px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width:800px){
+    .img{
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .head{
+        font-size: 1.6rem;
+        font-weight: 200;
+    }
+    .txt{
+        font-size: 1.3rem;
+        font-weight: 100;
+    }
+}
+@media screen and (max-width:600px){
+    .head{
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+    .txt{
+        font-size: 1rem;
+        font-weight: 100;
+    }
 }

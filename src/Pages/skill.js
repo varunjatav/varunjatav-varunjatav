@@ -19,48 +19,48 @@ import Redux from '../skillsImages/Redux.png'
        <h1>Skills</h1>
       <div className='skillContainer'>
        <div className='logo'>
-       <img src={html} alt="html.png" style={{width:"100px"}} />
+       <img src={html} alt="html.png" className='otherSkillImg'/>
        </div>
        <div  className='logo'>
-       <img src={css} alt="css.png" style={{width:"150px"}} />
+       <img src={css} alt="css.png" className='otherSkillImg'/>
        </div>
        
        <div  className='logo'>
-       <img src={javaScript} alt="JS.png"  style={{width:"100px"}}/>
+       <img src={javaScript} alt="JS.png" className='otherSkillImg' />
        </div>
       
         <div  className='logo'>
-        <img src={Reactpng} alt="react.png" style={{width:"100px"}}/>
+        <img src={Reactpng} alt="react.png"className='otherSkillImg' />
         </div>
 
        <div className='logo'>
-       <img src={Redux} alt="redux.png" style={{width:"100px"}}/>
+       <img src={Redux} alt="redux.png"className='otherSkillImg' />
        </div>
 
        <div className='logo'>
-       <img src={nodejs} alt="nodeJS.png" className='nodeJSimg' />
+       <img src={nodejs} alt="nodeJS.png" className='nodeImg' />
        </div>
         <div className='logo'>
-        <img src={expressjs} alt="expressjs.png" className='nodeJSimg' />
+        <img src={expressjs} alt="expressjs.png" className='nodeImg'/>
         </div>
        
        <div className='logo'>
-       <img src={mongoDB} alt="mongodb.png" style={{width:"100px"}}/>
+       <img src={mongoDB} alt="mongodb.png" className='otherSkillImg'/>
        </div>
         
        <div className='logo'>
-       <img src={materialui} alt="matrialui.png" style={{width:"100px"}}/>
+       <img src={materialui} alt="matrialui.png"className='otherSkillImg'/>
        </div>
 
        <div className='logo'>
-       <img src={git} alt="git.png" style={{width:"100px"}}/>
+       <img src={git} alt="git.png" className='otherSkillImg'/>
        </div>
         <div className='logo'>
-        <img src={bootstrap} alt="bootstrap.png" style={{width:"100px"}} />
+        <img src={bootstrap} alt="bootstrap.png" className='otherSkillImg' />
         </div>
        
        <div className='logo'>
-       <img src={npm}alt="npm.png" style={{width:"100px"}}/>
+       <img src={npm}alt="npm.png"className='otherSkillImg' />
        </div>
        
        

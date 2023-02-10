@@ -23,7 +23,7 @@ const NavbarPort = () => {
     // Home, About Me, Skills, Project, Contact & Resume
     <div className={color ? "header header-bg" : "header"}>
       <Link to="./">
-        <h1>Portfolio</h1>
+        <h1>Varun Jatav</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li onClick={handleClick}>
@@ -44,9 +44,13 @@ const NavbarPort = () => {
         <li onClick={handleClick}>
           <a href="#footer">Contact</a>
         </li>
-        <li>
-        <a href={Resume} download>Resume</a>
-        </li>
+        <li><a onClick={() =>
+                                window.open(
+                                    `https://drive.google.com/file/d/1fgD_3kDdKF6vWrg4dLiby5cqv3NvVIzW/view?usp=sharing`
+                                )
+                            } href={Resume} target="_blank" download="Varun_Jatav_Resume"
+                                rel="noreferrer"><i className={`uil uil-file-alt `}>
+                                </i> Resume </a> </li>
          
       </ul>
       <div className="hamburger" onClick={handleClick}>
