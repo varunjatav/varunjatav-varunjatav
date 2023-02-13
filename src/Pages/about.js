@@ -8,16 +8,16 @@ import './about.css'
  const About = () => {
   return (
    
-    <div >
+    <div class="about section nav-link about">
      
     <div className='aboutContainer' >
     <div className='myImg'>
-        <img src={myPic} alt="myPic"  />
+        <img class="home-img"src={myPic} alt="myPic"  />
       </div>
-      <div className='aboutMe' >
+      <div id="user-detail-intro" className='aboutMe' >
       <h1>About Me</h1>
         
-        <p >A passionate aspiring Full Stack Developer skilled in MERN stack. Strong in design and integration with intuitive problem-solving skills. Proficient in HTML, CSS, JavaScript, React, and Redux. Ability to translate business requirements into technical solutions.Looking forward to making a significant contribution to an organization through dedicated effort.</p>
+        <p  >A passionate aspiring Full Stack Developer skilled in MERN stack. Strong in design and integration with intuitive problem-solving skills. Proficient in HTML, CSS, JavaScript, React, and Redux. Ability to translate business requirements into technical solutions.Looking forward to making a significant contribution to an organization through dedicated effort.</p>
       </div>
       
     </div>

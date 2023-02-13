@@ -12,7 +12,7 @@ import Contact from '../Components/Footer'
 
  const Home = () => {
   return (
-    <div  id="home" className='main'>
+    <div  class="nav-link home" id="home" className='main'>
       <div>
       <NavbarPort/>
       </div>

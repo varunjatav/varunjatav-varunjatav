@@ -4,7 +4,7 @@ import React from 'react'
 import {  FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa"
  const Contact = () => {
   return (
-    <div id="contact" className="footer">
+    <div id="contact" className="footer" class="nav-link contact">
               <h1>Contact Me</h1>
         <div className="footer-container">
              <div className="left">
@@ -16,11 +16,11 @@ import {  FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "r
                 </div>
              </div>
              <div className="phone">
-                <h4> <FaPhone size={20} style={{marginRight:"2rem"}}/>
+                <h4> <FaPhone id="contact-phone" size={20} style={{marginRight:"2rem"}}/>
                 +91 6392859129</h4>  
             </div>
              <div className="email">
-               <a href="https://mohit.mohit979@gmail.com">   <h4> <FaMailBulk size={20} style={{marginRight:"2rem"}}/>
+               <a href="https://mohit.mohit979@gmail.com">   <h4> <FaMailBulk  id="contact-email" size={20} style={{marginRight:"2rem"}}/>
                  Mohit.Mohit979@gmail.com</h4></a>
                
              </div>
@@ -29,9 +29,9 @@ import {  FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "r
                 {/* <h4>About Me</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia optio sapiente libero quo quod! Illum doloremque molestias voluptatibus mollitia perferendis voluptates expedita? Expedita maxime non obcaecati, quaerat unde reiciendis sequi.</p> */}
             <div className="social">
-          <a href="https://github.com/Varun-98-masai"> <FaGithub size={30} style={{marginRight:"1rem",color:"white"}}/></a>
+          <a  href="https://github.com/Varun-98-masai"> <FaGithub id="contact-github" size={30} style={{marginRight:"1rem",color:"white"}}/></a>
            <FaTwitter size={30} style={{marginRight:"1rem",color:"white"}}/>
-         <a href="https://www.linkedin.com/in/varun-jatav-98ba16226/"><FaLinkedin size={30} style={{marginRight:"1rem",color:"white"}}/></a>  
+         <a  href="https://www.linkedin.com/in/varun-jatav-98ba16226/"><FaLinkedin id="contact-linkedin" size={30} style={{marginRight:"1rem",color:"white"}}/></a>  
              </div>
     </div>
     </div>

@@ -44,7 +44,7 @@ const NavbarPort = () => {
         <li onClick={handleClick}>
           <a href="#footer">Contact</a>
         </li>
-        <li><a onClick={() =>
+        <li><a class="nav-link resume" onClick={() =>
                                 window.open(
                                     `https://drive.google.com/file/d/1fgD_3kDdKF6vWrg4dLiby5cqv3NvVIzW/view?usp=sharing`
                                 )

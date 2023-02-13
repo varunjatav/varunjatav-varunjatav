@@ -7,7 +7,7 @@ import './homeinfo.css'
         <div className='nameContainer' >
         <h3 > Hii</h3>
          <h3 >I am</h3>
-         <h1>VARUN JATAV</h1>
+         <h1  id="user-detail-name">VARUN JATAV</h1>
          <h2>
          <TypeAnimation
       sequence={[
