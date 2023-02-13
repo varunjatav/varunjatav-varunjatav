@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
 }
-
+.logo h1{
+    font-size: 1.1rem;
+}
 .mainSkill{
     text-align: center;
 }
@@ -20,18 +22,27 @@
 }
 .logo {
     margin: auto;
-    /* padding: 10px; */
+    /* padding: 10px 10px; */
     box-shadow:coral 0px 8px 24px;
-    height: 150px ;
+    height: 200px ;
     width: 200px;
     margin-bottom: 20px;
 }
+.logo img{
+    /* margin: auto; */
+    padding: 10px 10px;
+ 
+}
 .otherSkillImg{
-   padding: 5%;
-    width: 60%;
+   /* padding: 5%; */
+   align-items: center;
+   justify-content: center;
+    width: 100%;
+    height: 75%;
 }
 .nodeImg{
-    padding: 5%;
+    /* padding: 5%; */
+    height: 75%;
     width: 100%;
 }
 
@@ -54,7 +65,7 @@
     }
     .otherSkillImg{
          padding: 5%;
-         width: 60%;
+         width: 100%;
      }
      .nodeImg{
         padding: 5%;
