@@ -7,7 +7,7 @@ import './githubCalender.css'
   return (
     <div  className="container">
        
-    <div className="calender" >
+    <div class="react-activity-calendar" className="calender" >
         <GitHubCalendar
          username='varun-98-masai'
          blockSize={20}

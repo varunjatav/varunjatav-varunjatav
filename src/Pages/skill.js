@@ -17,50 +17,64 @@ import Redux from '../skillsImages/Redux.png'
   return (
     <div id="skills" className='mainSkill'  class="nav-link skills">
        <h1>Skills</h1>
-      <div className='skillContainer'>
-       <div className='logo'>
-       <img src={html} alt="html.png" className='otherSkillImg'/>
+      <div  className='skillContainer'>
+       <div class="skills-card" className='logo'>
+       <img class="skills-card-img"src={html} alt="html.png" className='otherSkillImg'/>
+
+  <h1 class="skills-card-name">HTML</h1>       
        </div>
-       <div  className='logo'>
-       <img src={css} alt="css.png" className='otherSkillImg'/>
+       <div class="skills-card" className='logo'>
+       <img class="skills-card-img" src={css} alt="css.png" className='otherSkillImg'/>
+         <h1 class="skills-card-name">CSS</h1>       
        </div>
        
-       <div  className='logo'>
-       <img src={javaScript} alt="JS.png" className='otherSkillImg' />
+       <div class="skills-card"  className='logo'>
+       <img class="skills-card-img" src={javaScript} alt="JS.png" className='otherSkillImg' />
+         <h1 class="skills-card-name">JS</h1>
+      
        </div>
       
-        <div  className='logo'>
-        <img src={Reactpng} alt="react.png"className='otherSkillImg' />
+        <div class="skills-card" className='logo'>
+        <img class="skills-card-img" src={Reactpng} alt="react.png"className='otherSkillImg' />
+          <h1 class="skills-card-name">React.js</h1>
         </div>
 
-       <div className='logo'>
-       <img src={Redux} alt="redux.png"className='otherSkillImg' />
+       <div class="skills-card" className='logo'>
+       <img class="skills-card-img" src={Redux} alt="redux.png"className='otherSkillImg' />
+         <h1 class="skills-card-name">React Redux</h1>
        </div>
 
-       <div className='logo'>
-       <img src={nodejs} alt="nodeJS.png" className='nodeImg' />
+       <div class="skills-card" className='logo'>
+       <img class="skills-card-img" src={nodejs} alt="nodeJS.png" className='nodeImg' />
+       <h1 class="skills-card-name">Node.js</h1>
        </div>
-        <div className='logo'>
-        <img src={expressjs} alt="expressjs.png" className='nodeImg'/>
+        <div class="skills-card" className='logo'>
+        <img class="skills-card-img" src={expressjs} alt="expressjs.png" className='nodeImg'/>
+        <h1 class="skills-card-name">Express.js</h1>
         </div>
        
-       <div className='logo'>
-       <img src={mongoDB} alt="mongodb.png" className='otherSkillImg'/>
+       <div class="skills-card" className='logo'>
+       <img class="skills-card-img" src={mongoDB} alt="mongodb.png" className='otherSkillImg'/>
+       <h1 class="skills-card-name">MongoDB</h1>       
        </div>
         
-       <div className='logo'>
-       <img src={materialui} alt="matrialui.png"className='otherSkillImg'/>
-       </div>
+       <div class="skills-card" className='logo'>
+       <img class="skills-card-img" src={materialui} alt="matrialui.png"className='otherSkillImg'/>
+        <h1 class="skills-card-name">Material UI</h1>      
+         </div>
 
-       <div className='logo'>
-       <img src={git} alt="git.png" className='otherSkillImg'/>
+       <div class="skills-card" className='logo'>
+       <img  class="skills-card-img" src={git} alt="git.png" className='otherSkillImg'/>
+        <h1 class="skills-card-name">GIT</h1>       
        </div>
-        <div className='logo'>
-        <img src={bootstrap} alt="bootstrap.png" className='otherSkillImg' />
+        <div class="skills-card" className='logo'>
+        <img  class="skills-card-img" src={bootstrap} alt="bootstrap.png" className='otherSkillImg' />
+          <h1 class="skills-card-name">Bootstrap</h1>
         </div>
        
-       <div className='logo'>
-       <img src={npm}alt="npm.png"className='otherSkillImg' />
+       <div class="skills-card" className='logo'>
+       <img  class="skills-card-img" src={npm}alt="npm.png"className='otherSkillImg' />
+         <h1 class="skills-card-name">NPM</h1>
        </div>
        
        
