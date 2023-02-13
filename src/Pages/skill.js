@@ -15,7 +15,7 @@ import Redux from '../skillsImages/Redux.png'
 
  const Skill = () => {
   return (
-    <div className='mainSkill'>
+    <div id="skills" className='mainSkill'>
        <h1>Skills</h1>
       <div className='skillContainer'>
        <div className='logo'>

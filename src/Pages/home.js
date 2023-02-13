@@ -8,10 +8,11 @@ import Skill from './skill'
 import './home.css'
 import HomeInfo from './homeInfo'
 import Stats from './stats'
+import Contact from '../Components/Footer'
 
  const Home = () => {
   return (
-    <div className='main'>
+    <div  id="home" className='main'>
       <div>
       <NavbarPort/>
       </div>
@@ -35,7 +36,7 @@ import Stats from './stats'
       </div>
       
       <div id="footer">
-      <Footer/>
+      <Contact/>
       </div>
       
     </div>

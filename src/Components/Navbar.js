@@ -21,7 +21,7 @@ const NavbarPort = () => {
 
   return (
     // Home, About Me, Skills, Project, Contact & Resume
-    <div className={color ? "header header-bg" : "header"}>
+    <div id="nav-menu" className={color ? "header header-bg" : "header"}>
       <Link to="./">
         <h1>Varun Jatav</h1>
       </Link>

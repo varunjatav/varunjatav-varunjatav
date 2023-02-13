@@ -78,8 +78,8 @@ import { Card, CardBody, CardFooter, Image, Stack, Heading, Text, Button } from 
 
 export default function Project() {
   return (
-    <>
-     <h1 className='projectHead'>Projects</h1>
+    <div id="projects">
+     <h1  className='projectHead'>Projects</h1>
     <Card
   direction={{ base: 'column', sm: 'row' }}
   className='card'
@@ -217,6 +217,6 @@ export default function Project() {
     </CardFooter>
   </Stack>
 </Card>
-</>
+</div>
   );
 };

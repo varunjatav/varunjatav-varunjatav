@@ -2,9 +2,9 @@ import "./Footer.css"
 import React from 'react'
 
 import {  FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa"
- const Footer = () => {
+ const Contact = () => {
   return (
-    <div className="footer">
+    <div id="contact" className="footer">
               <h1>Contact Me</h1>
         <div className="footer-container">
              <div className="left">
@@ -38,4 +38,4 @@ import {  FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "r
     </div>
   )
 }
-export default Footer;
+export default Contact;
