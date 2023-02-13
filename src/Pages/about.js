@@ -7,9 +7,9 @@ import './about.css'
 
  const About = () => {
   return (
-   
+  
     <div class="about section nav-link about">
-     
+      <title>Varun Jatav</title>
     <div className='aboutContainer' >
     <div className='myImg'>
         <img class="home-img"src={myPic} alt="myPic"  />
