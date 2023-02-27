@@ -41,7 +41,7 @@ import Redux from '../skillsImages/Redux.png'
 
        <div class="skills-card" className='logo'>
        <img class="skills-card-img" src={Redux} alt="redux.png"className='otherSkillImg' />
-         <h1 class="skills-card-name">React Redux</h1>
+         <h1 class="skills-card-name">Redux</h1>
        </div>
 
        <div class="skills-card" className='logo'>

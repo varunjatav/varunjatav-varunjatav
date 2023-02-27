@@ -2,6 +2,7 @@ import React from 'react'
 import Project1 from '../Project1'
 import Project2 from '../Project2'
 import project4 from '../project4'
+import project5 from '../project5'
 import './project.css'
 
 
@@ -157,33 +158,32 @@ class="project-card"
   <Image
     objectFit='fit-content'
     className='img'
-    src={Project2}
-    alt='Project2'
+    src={project5}
+    alt='Project5'
     borderRadius={'2rem'}
   />
 
   <Stack padding={'5%'}>
     <CardBody>
-      <Heading class="project-title" textAlign={['left','center']} className='head'>NiftyPM</Heading>
+      <Heading class="project-title" textAlign={['left','center']} className='head'>Crackdeal</Heading>
 
       <Text class="project-description"  textAlign={['left','center']} py='2'>
-             Nifty is the remote collaboration hub to manage projects, tasks, and
-             communications — all in one place. Remote work has never been
-             easier, fun, and more
+             Crackdeal is a clone website of Snapdeal created by a group of 5 members.
+             Which is India's leading pure-play value Ecommerce platform.
       </Text>
 
       <Heading  class="project-title" textAlign={['left','center']} className='head'>Tech Stack</Heading>
 
       <Text class="project-tech-stack" className='txt' textAlign={['left','center']} py='2'>
-      HTML | CSS | Javascript
+     React Redux | Chakra UI | Firebase | HTML & CSS
       </Text>
     </CardBody>
 
     <CardFooter justifyContent={"center"} gap={"50%"}>
-     <a class="project-github-link" href="https://github.com/piyush-agrawal6/NiftyPM-clone"> <Button fontSize={'1.2rem'} bgColor='red' borderRadius={'10%'} padding={'10px'}>
+     <a class="project-github-link" href="https://github.com/Mehul-Kanjariya/subsequent-parcel-2806"> <Button fontSize={'1.2rem'} bgColor='red' borderRadius={'10%'} padding={'10px'}>
         Github
       </Button></a>
-      <a  class="project-deployed-link" href="http://nifty-pm.netlify.app/"><Button fontSize={'1.2rem'} bgColor='red' borderRadius={'10%'} padding={'10px'}>
+      <a  class="project-deployed-link" href="https://subsequent-parcel-2806-mehulktik-gmailcom.vercel.app/"><Button fontSize={'1.2rem'} bgColor='red' borderRadius={'10%'} padding={'10px'}>
         Netlify
       </Button></a>
     </CardFooter>
