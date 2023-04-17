@@ -13,7 +13,7 @@ import './homeinfo.css'
       sequence={[
       
        
-        'FULL STACK WEB DEVELOPER',
+        'FRONTEND WEB DEVELOPER',
         1000, // Types 'Three' without deleting 'Two'
         " ",
         1000,
