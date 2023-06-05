@@ -1,23 +1,22 @@
-
 import "./Navbar.css";
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import {FaBars, FaTimes} from 'react-icons/fa';
-import Resume from "../Downloads/Varun_Jatav_Resume.pdf";
+import { FaBars, FaTimes } from "react-icons/fa";
+// import Resume from "../Downloads/Varun_Jatav_Resume";
 
 const NavbarPort = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  const [color,setColor] = useState(false);
-  const changeColor =() =>{
-    if(window.scrollY >= 100){
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 100) {
       setColor(true);
-    }else{
+    } else {
       setColor(false);
     }
   };
-  window.addEventListener("scroll",changeColor);
+  window.addEventListener("scroll", changeColor);
 
   return (
     // Home, About Me, Skills, Project, Contact & Resume
@@ -34,24 +33,31 @@ const NavbarPort = () => {
         </li>
         <li onClick={handleClick}>
           <a href="#skills">Skills</a>
-         
         </li>
         <li onClick={handleClick}>
           <a href="#project">Project</a>
         </li>
-       
-       
+
         <li onClick={handleClick}>
-          <a  href="#footer">Contact</a>
+          <a href="#footer">Contact</a>
         </li>
-        <li><a class="nav-link resume" id="resume-link-1" onClick={() =>
-                                window.open(
-                                    `https://drive.google.com/file/d/1fgD_3kDdKF6vWrg4dLiby5cqv3NvVIzW/view?usp=sharing`
-                                )
-                            } href={Resume} target="_blank" download="Varun_Jatav_Resume"
-                                rel="noreferrer"><i className={`uil uil-file-alt `}>
-                                </i> Resume </a> </li>
-         
+        <li>
+          <a
+            class="nav-link resume"
+            id="resume-link-1"
+            onClick={() =>
+              window.open(
+                `https://drive.google.com/file/d/1fgD_3kDdKF6vWrg4dLiby5cqv3NvVIzW/view?usp=sharing`
+              )
+            }
+            // href={Resume}
+            target="_blank"
+            download="Varun_Jatav_Resume"
+            rel="noreferrer"
+          >
+            <i className={`uil uil-file-alt `}></i> Resume{" "}
+          </a>{" "}
+        </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (
